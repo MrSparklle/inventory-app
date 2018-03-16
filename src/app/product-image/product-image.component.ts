@@ -9,3 +9,4 @@ export class ProductImageComponent {
   @Input() product: Product;
   @HostBinding('attr.class') cssClass = 'ui small image';
 }
+
